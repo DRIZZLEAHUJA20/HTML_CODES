@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SURVEY FORM</title>
+</head>
+
+<body>
+    <header>
+        <h1>SURVEY FORM</h1>
+    </header>
+    <hr>
+    </hr>
+    <main>
+        <form action="form.php">
+            <div>
+                <h4>NAME</h4>
+                <label for="first-name">
+                    <input type="text" name="first-name" id="first-name" placeholder="ENTER YOUR FIRST NAME">
+                </label>
+                <label for="last-name">
+                    <input type="text" name="last-name" id="last-name" placeholder="ENTER YOUR LAST NAME">
+                </label>
+                <h4>ADDRESS</h4>
+                <label for="address-line1">
+                    <input type="text" name="address-line1" id="address-line1" placeholder="ADDRESS LINE 1"><br>
+                </label>
+                <label for="address-line2">
+                    <input type="text" name="address-line2" id="address-line2" placeholder="ADDRESS LINE 2"><br>
+                </label>
+                <label for="city">
+                    <input type="text" name="city" id="city" placeholder="CITY"><br>
+                </label>
+                <label for="state">
+                    <input type="text" name="state" id="state" placeholder="STATE"><br>
+                </label>
+                <select class="form-control-input" name="country" required>
+                    <!-- ... (previous countries) ... -->
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <!-- ... (previous countries) ... -->
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                    <!-- ... (previous countries) ... -->
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                    <option value="New Country">New Country</option> <!-- Add new country here -->
+                </select>
+                <h4>CONTACT INFO</h4>
+                <label for="mobile-number">
+                    <input type="text" name="mobile-number" id="mobile-number" placeholder="MOBILE NUMBER"><br>
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="EMAIL"><br>
+                </label>
+                <h4>GENDER</h4>
+                <label for="gender-male">
+                    <input type="radio" name="gender" id="gender-male">Male
+                </label>
+                <label for="gender-female">
+                    <input type="radio" name="gender" id="gender-female">Female
+                </label>
+                <label for="gender-other">
+                    <input type="radio" name="gender" id="gender-other">Others
+                </label><br><br>
+                <hr>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
