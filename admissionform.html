@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <header>
+        <h1><u>The Northcap University</u></h1>
+        <img src="https://www.cintana.com/wp-content/uploads/2021/04/NCU-Brand-Logo-01-2.jpg" alt="Northcap University Logo" width="200">
+        <nav>
+            <a href="https://apply.ncuindia.edu/lp/ncu.html?utm_source=Google&utm_medium=Paid&utm_campaign=SearchBrandGurgaon&gclid=EAIaIQobChMI8cOEj8Dy_wIV-tUWBR25aA7KEAAYASAAEgKbw_D_BwE">WEBSITE</a>
+        </nav>
+        <h2><u>Admission Form</u></h2>
+        <h3>Session 2023-24</h3>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Your Details in the Following Form:</h2>
+        </section>
+        <section>
+            <ol>
+                <li>Full Name</li>
+                <li>Course</li>
+                <li>Date of Birth</li>
+                <li>Email ID</li>
+            </ol>
+        </section>
+        <section>
+            <form action="form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br>
+
+                <h4>Choose Your Course:</h4>
+                <label>
+                    <input type="radio" value="BTECH" name="course">BTECH
+                </label><br>
+                <label>
+                    <input type="radio" value="BCA" name="course">BCA
+                </label><br>
+                <label>
+                    <input type="radio" value="BCOM" name="course">BCOM
+                </label><br>
+
+                <h4>Enter Your Date of Birth:</h4>
+                <input type="date" name="dob" required><br>
+
+                <h4>Enter Your Email ID:</h4>
+                <input type="email" name="email" placeholder="Enter Your Email" required><br>
+
+                <h4>Attach Your Marksheet:</h4>
+                <input type="file" name="file"><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
